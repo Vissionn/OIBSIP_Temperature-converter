@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <h2 class="heading">Temperature Converter</h2>
+            <p class="para">Select the type and enter the input value for getting the desired Result....</p>
+            <div class="main-box">
+                <P>
+                    <label>Type:</label>
+                    <select id="type">
+                        <option value="fh">Fahrenheit</option>
+                        <option value="cl">Celcius</option>
+                    </select>
+                </P>
+                
+                <p>
+                  <label>Input:</label>
+                  <input id="input" type="number" placeholder="Input value" input-value>
+                </p>
+            </div>
+                <div class="main-box2">
+                    <p>Result: <span id="outputCelcius"></span></p>
+                </div>
+                    <div class="btn-div">
+                        <button class="btn" id="clicked">Convert</button>
+                    </div>
+                  
+               
+                
+            
+           
+        </div>
+        
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
